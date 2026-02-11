@@ -14,7 +14,7 @@ export function Footer() {
                 <span className="text-white">Craft</span>
               </span>
             </a>
-            <p className="text-sm text-smoke leading-relaxed mb-6">
+            <p className="text-base text-smoke leading-relaxed mb-6">
               Brooklyn&apos;s premier tattoo and piercing studio. Where bold vision meets
               meticulous artistry. Established 2015.
             </p>

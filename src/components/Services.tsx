@@ -88,7 +88,7 @@ export function Services() {
                     <h3 className="text-xl font-bold text-white mb-2 font-[family-name:var(--font-heading)]">
                       {service.title}
                     </h3>
-                    <p className="text-sm text-smoke leading-relaxed mb-4">
+                    <p className="text-base text-smoke leading-relaxed mb-4">
                       {service.description}
                     </p>
                     <span className="text-xs uppercase tracking-wider text-crimson font-semibold">

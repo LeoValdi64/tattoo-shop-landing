@@ -89,7 +89,7 @@ export function Aftercare() {
                     <div className="w-10 h-10 flex items-center justify-center bg-crimson/10 border border-crimson/20 rounded-sm">
                       <Icon className="w-5 h-5 text-crimson" />
                     </div>
-                    <span className="absolute -top-2 -left-2 w-5 h-5 bg-ink-black border border-crimson/40 rounded-full flex items-center justify-center text-[10px] text-crimson font-bold">
+                    <span className="absolute -top-2 -left-2 w-5 h-5 bg-ink-black border border-crimson/40 rounded-full flex items-center justify-center text-xs text-crimson font-bold">
                       {index + 1}
                     </span>
                   </div>
@@ -97,12 +97,12 @@ export function Aftercare() {
                     <h3 className="text-lg font-bold text-white font-[family-name:var(--font-heading)]">
                       {step.title}
                     </h3>
-                    <span className="text-[11px] uppercase tracking-wider text-crimson">
+                    <span className="text-xs uppercase tracking-wider text-crimson">
                       {step.time}
                     </span>
                   </div>
                 </div>
-                <p className="text-sm text-smoke leading-relaxed">{step.description}</p>
+                <p className="text-base text-smoke leading-relaxed">{step.description}</p>
               </div>
             );
           })}
@@ -111,7 +111,7 @@ export function Aftercare() {
         {/* Download note */}
         <div className="mt-12 text-center p-6 border border-ink-medium/30 bg-ink-dark/50 rounded-sm max-w-2xl mx-auto">
           <ShieldCheck className="w-8 h-8 text-crimson mx-auto mb-3" />
-          <p className="text-sm text-smoke">
+          <p className="text-base text-smoke">
             Every client receives a printed aftercare guide after their session. Have
             questions during healing?{" "}
             <a

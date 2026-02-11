@@ -103,7 +103,7 @@ export function Artists() {
                     </a>
                   </div>
 
-                  <p className="text-sm text-smoke leading-relaxed mb-4">{artist.bio}</p>
+                  <p className="text-base text-smoke leading-relaxed mb-4">{artist.bio}</p>
 
                   <div className="flex flex-wrap items-center gap-3 mb-4">
                     <div className="flex items-center gap-1.5 text-xs text-ash">
@@ -124,7 +124,7 @@ export function Artists() {
                     {artist.styles.map((style) => (
                       <span
                         key={style}
-                        className="px-2.5 py-1 text-[11px] uppercase tracking-wider border border-ink-light text-ash rounded-sm"
+                        className="px-2.5 py-1 text-xs uppercase tracking-wider border border-ink-light text-ash rounded-sm"
                       >
                         {style}
                       </span>

@@ -89,7 +89,7 @@ export function Hero() {
         href="#services"
         className="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 text-ash hover:text-crimson transition-colors"
       >
-        <span className="text-[10px] uppercase tracking-[0.3em]">Scroll</span>
+        <span className="text-xs uppercase tracking-[0.3em]">Scroll</span>
         <ChevronDown className="w-5 h-5 animate-bounce" />
       </a>
     </section>

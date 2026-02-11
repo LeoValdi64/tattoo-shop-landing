@@ -26,7 +26,7 @@ export function Navbar() {
               <span className="text-crimson">Ink</span>
               <span className="text-white">Craft</span>
             </span>
-            <span className="hidden sm:block text-[10px] uppercase tracking-[0.3em] text-ash border-l border-ink-light pl-2 ml-1">
+            <span className="hidden sm:block text-xs uppercase tracking-[0.3em] text-ash border-l border-ink-light pl-2 ml-1">
               Studio
             </span>
           </a>

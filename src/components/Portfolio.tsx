@@ -102,7 +102,7 @@ export function Portfolio() {
                   {item.title}
                 </h4>
                 <p className="text-ash text-xs text-center">by {item.artist}</p>
-                <span className="mt-2 px-2.5 py-1 text-[10px] uppercase tracking-wider border border-crimson/30 text-crimson rounded-sm">
+                <span className="mt-2 px-2.5 py-1 text-xs uppercase tracking-wider border border-crimson/30 text-crimson rounded-sm">
                   {item.style}
                 </span>
               </div>

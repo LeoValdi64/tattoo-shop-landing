@@ -51,8 +51,8 @@ export function StudioInfo() {
                   <h3 className="text-lg font-bold text-white font-[family-name:var(--font-heading)] mb-1">
                     Our Location
                   </h3>
-                  <p className="text-smoke">247 Bedford Avenue, Suite 2B</p>
-                  <p className="text-smoke">Williamsburg, Brooklyn, NY 11211</p>
+                  <p className="text-base text-smoke">247 Bedford Avenue, Suite 2B</p>
+                  <p className="text-base text-smoke">Williamsburg, Brooklyn, NY 11211</p>
                   <a
                     href="https://maps.google.com"
                     target="_blank"
@@ -93,15 +93,15 @@ export function StudioInfo() {
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
               <div className="flex items-center gap-3 p-4 bg-ink-gray border border-ink-medium/50 rounded-sm">
                 <ShieldCheck className="w-5 h-5 text-crimson flex-shrink-0" />
-                <span className="text-sm text-smoke">Health Dept. Licensed</span>
+                <span className="text-base text-smoke">Health Dept. Licensed</span>
               </div>
               <div className="flex items-center gap-3 p-4 bg-ink-gray border border-ink-medium/50 rounded-sm">
                 <Accessibility className="w-5 h-5 text-crimson flex-shrink-0" />
-                <span className="text-sm text-smoke">ADA Accessible</span>
+                <span className="text-base text-smoke">ADA Accessible</span>
               </div>
               <div className="flex items-center gap-3 p-4 bg-ink-gray border border-ink-medium/50 rounded-sm">
                 <Car className="w-5 h-5 text-crimson flex-shrink-0" />
-                <span className="text-sm text-smoke">Street Parking</span>
+                <span className="text-base text-smoke">Street Parking</span>
               </div>
             </div>
           </div>

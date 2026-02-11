@@ -68,8 +68,6 @@ export function Testimonials() {
               key={index}
               className={`group relative p-6 bg-ink-gray border border-ink-medium/50 rounded-sm transition-all duration-500 hover:border-crimson/30 ${
                 index >= 3 ? "lg:col-span-1 md:col-span-1" : ""
-              } ${index === 3 ? "lg:translate-x-[50%]" : ""} ${
-                index === 4 ? "lg:translate-x-[50%]" : ""
               }`}
             >
               {/* Quote icon */}
@@ -86,7 +84,7 @@ export function Testimonials() {
               </div>
 
               {/* Text */}
-              <p className="text-sm text-smoke leading-relaxed mb-6">
+              <p className="text-base text-smoke leading-relaxed mb-6">
                 &ldquo;{testimonial.text}&rdquo;
               </p>
 
